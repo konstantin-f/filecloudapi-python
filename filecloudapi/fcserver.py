@@ -661,7 +661,7 @@ class FCServer:
             nofileoverwrite=nofileoverwrite,
             iflastmodified=iflastmodified,
             progress=progress,
-            ifetag=ifetag
+            ifetag=ifetag,
         )
 
     def upload_file(
@@ -687,7 +687,7 @@ class FCServer:
                 iflastmodified,
                 adminproxyuserid=adminproxyuserid,
                 progress=progress,
-                ifetag=ifetag
+                ifetag=ifetag,
             )
 
     def _serverdatetime(self, dt: datetime.datetime):
